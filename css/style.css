@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #27282d;
+    overflow: hidden;
+
+
+}
+header img{
+    max-width: 600px;
+    position: relative;
+    left: -150px;
+    top: -98px;
+}
+.bg{
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    width: 100%;
+}
+.texto{
+    background-color: #27282d91;
+    width: 900px;
+    height: 200px;
+    margin: auto 50px;
+    width: 60%;
+    
+}
+.texto h2{
+    margin: 30px;
+}
+.fundo{
+    background-color: #5f5f5f62;
+    height: 85vh;
+    position: relative;
+    top: -25px;
+    margin: 0 50px;
+    width: 33%;
+}
+.formulario{
+    color: #383838;
+    background-color: white;
+    margin: 10px;
+    height: 90%;
+    padding: 20px;
+}
+.formulario input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.formulario h1{
+    font-size: 25px ;
+}
+.formulario button{
+    margin: auto;
+    width: 100%;
+    height: 12%;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 148, 0.911);
+    color: white;
+}
+.descricao{
+    height: 200px;
+    background-color: #383838;
+    text-align: center;
+    padding: 30px;
+}
+.descricao h1{
+    margin-bottom: 15px;
+}
+.descricao h3{
+    color: #5f5f5f;
+}
+.aprenda{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.aprenda h2{
+    margin: 60px 0;
+}
+.box-conteiner{
+    display: flex;
+    text-align: center;
+}
+.conteiner h2{
+    color: #5f5f5f;
+}
+footer{
+    text-align: center;
+    box-shadow:0px -3px #5f5f5f;
+}
+footer h2{
+    padding-top: 20px;
+    color: #5f5f5f;
+}
+@media (max-width:800px) {
+    header{
+        margin: 0;
+        justify-self: center;
+    }
+    .bg{
+        max-width: 100%;
+        display: table;
+    } 
+    .texto{
+        background-color: #27282d91;
+        width: 80%;
+        height: 30%;       
+    }
+    .texto h2{
+        margin: 10% 0;
+        font-size: 120%;
+    }
+    .fundo{
+        background-color: #5f5f5f62;
+        height: 85vh;
+        width: 80%;
+        display: flex;    
+        margin: 50px 50px;
+        overflow: hidden;
+        padding-bottom: 15%;
+    }
+    .formulario{
+        color: #383838;
+        background-color: white;
+        height: 100%;
+        padding: 20px;
+    }
+    .box-conteiner{
+        display: block;
+    }
+}
+
+
+
